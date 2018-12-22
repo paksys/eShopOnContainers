@@ -123,6 +123,11 @@ namespace Microsoft.eShopOnContainers.Services.Ordering.Infrastructure
 
         class NoMediator : IMediator
         {
+            public Task Publish(object notification, CancellationToken cancellationToken = default(CancellationToken))
+            {
+                return Task.CompletedTask;
+            }
+
             public Task Publish<TNotification>(TNotification notification, CancellationToken cancellationToken = default(CancellationToken)) where TNotification : INotification
             {
                 return Task.CompletedTask;

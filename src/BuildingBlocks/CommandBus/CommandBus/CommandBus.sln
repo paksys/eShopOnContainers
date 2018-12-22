@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandBus", "CommandBus.csproj", "{3447C940-EB7C-49E5-82B9-6686008D8086}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3447C940-EB7C-49E5-82B9-6686008D8086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3447C940-EB7C-49E5-82B9-6686008D8086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3447C940-EB7C-49E5-82B9-6686008D8086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3447C940-EB7C-49E5-82B9-6686008D8086}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B812821-6443-442B-B1BF-A973146B0E40}
+	EndGlobalSection
+EndGlobal
